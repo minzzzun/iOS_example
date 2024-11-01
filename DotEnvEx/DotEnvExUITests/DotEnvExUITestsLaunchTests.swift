@@ -1,13 +1,13 @@
 //
-//  URLSessionExUITestsLaunchTests.swift
-//  URLSessionExUITests
+//  DotEnvExUITestsLaunchTests.swift
+//  DotEnvExUITests
 //
-//  Created by 김민준 on 11/1/24.
+//  Created by 김민준 on 10/29/24.
 //
 
 import XCTest
 
-final class URLSessionExUITestsLaunchTests: XCTestCase {
+final class DotEnvExUITestsLaunchTests: XCTestCase {
 
     override class var runsForEachTargetApplicationUIConfiguration: Bool {
         true

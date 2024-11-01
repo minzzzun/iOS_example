@@ -1,14 +1,14 @@
 //
-//  URLSessionExTests.swift
-//  URLSessionExTests
+//  DotEnvExTests.swift
+//  DotEnvExTests
 //
-//  Created by 김민준 on 11/1/24.
+//  Created by 김민준 on 10/29/24.
 //
 
 import Testing
-@testable import URLSessionEx
+@testable import DotEnvEx
 
-struct URLSessionExTests {
+struct DotEnvExTests {
 
     @Test func example() async throws {
         // Write your test here and use APIs like `#expect(...)` to check expected conditions.

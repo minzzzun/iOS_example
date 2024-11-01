@@ -1,8 +1,8 @@
 //
 //  AppDelegate.swift
-//  URLSessionEx
+//  DotEnvEx
 //
-//  Created by 김민준 on 11/1/24.
+//  Created by 김민준 on 10/29/24.
 //
 
 import UIKit
