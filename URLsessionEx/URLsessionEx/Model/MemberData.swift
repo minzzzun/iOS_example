@@ -1,9 +1,9 @@
 
 import Foundation
 
-struct MemeberData : Codable {
+struct MemberData : Codable {
     var id : Int?
     var name : String
     var part : String
-    var age : String
+    var age : Int
 }
