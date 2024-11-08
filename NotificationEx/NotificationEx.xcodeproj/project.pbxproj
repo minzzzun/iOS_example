@@ -7,75 +7,75 @@
 	objects = {
 
 /* Begin PBXContainerItemProxy section */
-		4855421E2CCE69ED004117EA /* PBXContainerItemProxy */ = {
+		482F70C62CDE441C005B9D10 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 485541FF2CCE69EA004117EA /* Project object */;
+			containerPortal = 482F70A72CDE441A005B9D10 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 485542062CCE69EA004117EA;
-			remoteInfo = CustomViewEx;
+			remoteGlobalIDString = 482F70AE2CDE441A005B9D10;
+			remoteInfo = NotificationEx;
 		};
-		485542282CCE69ED004117EA /* PBXContainerItemProxy */ = {
+		482F70D02CDE441C005B9D10 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 485541FF2CCE69EA004117EA /* Project object */;
+			containerPortal = 482F70A72CDE441A005B9D10 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 485542062CCE69EA004117EA;
-			remoteInfo = CustomViewEx;
+			remoteGlobalIDString = 482F70AE2CDE441A005B9D10;
+			remoteInfo = NotificationEx;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		485542072CCE69EA004117EA /* CustomViewEx.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CustomViewEx.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		4855421D2CCE69ED004117EA /* CustomViewExTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CustomViewExTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		485542272CCE69ED004117EA /* CustomViewExUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CustomViewExUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		482F70AF2CDE441A005B9D10 /* NotificationEx.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NotificationEx.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		482F70C52CDE441C005B9D10 /* NotificationExTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NotificationExTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		482F70CF2CDE441C005B9D10 /* NotificationExUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NotificationExUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		4855422F2CCE69ED004117EA /* Exceptions for "CustomViewEx" folder in "CustomViewEx" target */ = {
+		482F70D72CDE441C005B9D10 /* Exceptions for "NotificationEx" folder in "NotificationEx" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				Info.plist,
 			);
-			target = 485542062CCE69EA004117EA /* CustomViewEx */;
+			target = 482F70AE2CDE441A005B9D10 /* NotificationEx */;
 		};
 /* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		485542092CCE69EA004117EA /* CustomViewEx */ = {
+		482F70B12CDE441A005B9D10 /* NotificationEx */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			exceptions = (
-				4855422F2CCE69ED004117EA /* Exceptions for "CustomViewEx" folder in "CustomViewEx" target */,
+				482F70D72CDE441C005B9D10 /* Exceptions for "NotificationEx" folder in "NotificationEx" target */,
 			);
-			path = CustomViewEx;
+			path = NotificationEx;
 			sourceTree = "<group>";
 		};
-		485542202CCE69ED004117EA /* CustomViewExTests */ = {
+		482F70C82CDE441C005B9D10 /* NotificationExTests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = CustomViewExTests;
+			path = NotificationExTests;
 			sourceTree = "<group>";
 		};
-		4855422A2CCE69ED004117EA /* CustomViewExUITests */ = {
+		482F70D22CDE441C005B9D10 /* NotificationExUITests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = CustomViewExUITests;
+			path = NotificationExUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		485542042CCE69EA004117EA /* Frameworks */ = {
+		482F70AC2CDE441A005B9D10 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4855421A2CCE69ED004117EA /* Frameworks */ = {
+		482F70C22CDE441C005B9D10 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		485542242CCE69ED004117EA /* Frameworks */ = {
+		482F70CC2CDE441C005B9D10 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -85,22 +85,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		485541FE2CCE69EA004117EA = {
+		482F70A62CDE441A005B9D10 = {
 			isa = PBXGroup;
 			children = (
-				485542092CCE69EA004117EA /* CustomViewEx */,
-				485542202CCE69ED004117EA /* CustomViewExTests */,
-				4855422A2CCE69ED004117EA /* CustomViewExUITests */,
-				485542082CCE69EA004117EA /* Products */,
+				482F70B12CDE441A005B9D10 /* NotificationEx */,
+				482F70C82CDE441C005B9D10 /* NotificationExTests */,
+				482F70D22CDE441C005B9D10 /* NotificationExUITests */,
+				482F70B02CDE441A005B9D10 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		485542082CCE69EA004117EA /* Products */ = {
+		482F70B02CDE441A005B9D10 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				485542072CCE69EA004117EA /* CustomViewEx.app */,
-				4855421D2CCE69ED004117EA /* CustomViewExTests.xctest */,
-				485542272CCE69ED004117EA /* CustomViewExUITests.xctest */,
+				482F70AF2CDE441A005B9D10 /* NotificationEx.app */,
+				482F70C52CDE441C005B9D10 /* NotificationExTests.xctest */,
+				482F70CF2CDE441C005B9D10 /* NotificationExUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -108,137 +108,134 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		485542062CCE69EA004117EA /* CustomViewEx */ = {
+		482F70AE2CDE441A005B9D10 /* NotificationEx */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 485542302CCE69ED004117EA /* Build configuration list for PBXNativeTarget "CustomViewEx" */;
+			buildConfigurationList = 482F70D82CDE441C005B9D10 /* Build configuration list for PBXNativeTarget "NotificationEx" */;
 			buildPhases = (
-				485542032CCE69EA004117EA /* Sources */,
-				485542042CCE69EA004117EA /* Frameworks */,
-				485542052CCE69EA004117EA /* Resources */,
+				482F70AB2CDE441A005B9D10 /* Sources */,
+				482F70AC2CDE441A005B9D10 /* Frameworks */,
+				482F70AD2CDE441A005B9D10 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				485542092CCE69EA004117EA /* CustomViewEx */,
+				482F70B12CDE441A005B9D10 /* NotificationEx */,
 			);
-			name = CustomViewEx;
+			name = NotificationEx;
 			packageProductDependencies = (
 			);
-			productName = CustomViewEx;
-			productReference = 485542072CCE69EA004117EA /* CustomViewEx.app */;
+			productName = NotificationEx;
+			productReference = 482F70AF2CDE441A005B9D10 /* NotificationEx.app */;
 			productType = "com.apple.product-type.application";
 		};
-		4855421C2CCE69ED004117EA /* CustomViewExTests */ = {
+		482F70C42CDE441C005B9D10 /* NotificationExTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 485542352CCE69ED004117EA /* Build configuration list for PBXNativeTarget "CustomViewExTests" */;
+			buildConfigurationList = 482F70DD2CDE441C005B9D10 /* Build configuration list for PBXNativeTarget "NotificationExTests" */;
 			buildPhases = (
-				485542192CCE69ED004117EA /* Sources */,
-				4855421A2CCE69ED004117EA /* Frameworks */,
-				4855421B2CCE69ED004117EA /* Resources */,
+				482F70C12CDE441C005B9D10 /* Sources */,
+				482F70C22CDE441C005B9D10 /* Frameworks */,
+				482F70C32CDE441C005B9D10 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				4855421F2CCE69ED004117EA /* PBXTargetDependency */,
+				482F70C72CDE441C005B9D10 /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
-				485542202CCE69ED004117EA /* CustomViewExTests */,
+				482F70C82CDE441C005B9D10 /* NotificationExTests */,
 			);
-			name = CustomViewExTests;
+			name = NotificationExTests;
 			packageProductDependencies = (
 			);
-			productName = CustomViewExTests;
-			productReference = 4855421D2CCE69ED004117EA /* CustomViewExTests.xctest */;
+			productName = NotificationExTests;
+			productReference = 482F70C52CDE441C005B9D10 /* NotificationExTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		485542262CCE69ED004117EA /* CustomViewExUITests */ = {
+		482F70CE2CDE441C005B9D10 /* NotificationExUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 485542382CCE69ED004117EA /* Build configuration list for PBXNativeTarget "CustomViewExUITests" */;
+			buildConfigurationList = 482F70E02CDE441C005B9D10 /* Build configuration list for PBXNativeTarget "NotificationExUITests" */;
 			buildPhases = (
-				485542232CCE69ED004117EA /* Sources */,
-				485542242CCE69ED004117EA /* Frameworks */,
-				485542252CCE69ED004117EA /* Resources */,
+				482F70CB2CDE441C005B9D10 /* Sources */,
+				482F70CC2CDE441C005B9D10 /* Frameworks */,
+				482F70CD2CDE441C005B9D10 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				485542292CCE69ED004117EA /* PBXTargetDependency */,
+				482F70D12CDE441C005B9D10 /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
-				4855422A2CCE69ED004117EA /* CustomViewExUITests */,
+				482F70D22CDE441C005B9D10 /* NotificationExUITests */,
 			);
-			name = CustomViewExUITests;
+			name = NotificationExUITests;
 			packageProductDependencies = (
 			);
-			productName = CustomViewExUITests;
-			productReference = 485542272CCE69ED004117EA /* CustomViewExUITests.xctest */;
+			productName = NotificationExUITests;
+			productReference = 482F70CF2CDE441C005B9D10 /* NotificationExUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		485541FF2CCE69EA004117EA /* Project object */ = {
+		482F70A72CDE441A005B9D10 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
-				LastSwiftUpdateCheck = 1600;
-				LastUpgradeCheck = 1600;
+				LastSwiftUpdateCheck = 1610;
+				LastUpgradeCheck = 1610;
 				TargetAttributes = {
-					485542062CCE69EA004117EA = {
-						CreatedOnToolsVersion = 16.0;
+					482F70AE2CDE441A005B9D10 = {
+						CreatedOnToolsVersion = 16.1;
 					};
-					4855421C2CCE69ED004117EA = {
-						CreatedOnToolsVersion = 16.0;
-						TestTargetID = 485542062CCE69EA004117EA;
+					482F70C42CDE441C005B9D10 = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = 482F70AE2CDE441A005B9D10;
 					};
-					485542262CCE69ED004117EA = {
-						CreatedOnToolsVersion = 16.0;
-						TestTargetID = 485542062CCE69EA004117EA;
+					482F70CE2CDE441C005B9D10 = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = 482F70AE2CDE441A005B9D10;
 					};
 				};
 			};
-			buildConfigurationList = 485542022CCE69EA004117EA /* Build configuration list for PBXProject "CustomViewEx" */;
+			buildConfigurationList = 482F70AA2CDE441A005B9D10 /* Build configuration list for PBXProject "NotificationEx" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 				Base,
 			);
-			mainGroup = 485541FE2CCE69EA004117EA;
+			mainGroup = 482F70A62CDE441A005B9D10;
 			minimizedProjectReferenceProxies = 1;
-			packageReferences = (
-				481C1E832CDDF94000C34FC4 /* XCRemoteSwiftPackageReference "SnapKit" */,
-			);
 			preferredProjectObjectVersion = 77;
-			productRefGroup = 485542082CCE69EA004117EA /* Products */;
+			productRefGroup = 482F70B02CDE441A005B9D10 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				485542062CCE69EA004117EA /* CustomViewEx */,
-				4855421C2CCE69ED004117EA /* CustomViewExTests */,
-				485542262CCE69ED004117EA /* CustomViewExUITests */,
+				482F70AE2CDE441A005B9D10 /* NotificationEx */,
+				482F70C42CDE441C005B9D10 /* NotificationExTests */,
+				482F70CE2CDE441C005B9D10 /* NotificationExUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		485542052CCE69EA004117EA /* Resources */ = {
+		482F70AD2CDE441A005B9D10 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4855421B2CCE69ED004117EA /* Resources */ = {
+		482F70C32CDE441C005B9D10 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		485542252CCE69ED004117EA /* Resources */ = {
+		482F70CD2CDE441C005B9D10 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -248,21 +245,21 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		485542032CCE69EA004117EA /* Sources */ = {
+		482F70AB2CDE441A005B9D10 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		485542192CCE69ED004117EA /* Sources */ = {
+		482F70C12CDE441C005B9D10 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		485542232CCE69ED004117EA /* Sources */ = {
+		482F70CB2CDE441C005B9D10 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -272,20 +269,20 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		4855421F2CCE69ED004117EA /* PBXTargetDependency */ = {
+		482F70C72CDE441C005B9D10 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 485542062CCE69EA004117EA /* CustomViewEx */;
-			targetProxy = 4855421E2CCE69ED004117EA /* PBXContainerItemProxy */;
+			target = 482F70AE2CDE441A005B9D10 /* NotificationEx */;
+			targetProxy = 482F70C62CDE441C005B9D10 /* PBXContainerItemProxy */;
 		};
-		485542292CCE69ED004117EA /* PBXTargetDependency */ = {
+		482F70D12CDE441C005B9D10 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 485542062CCE69EA004117EA /* CustomViewEx */;
-			targetProxy = 485542282CCE69ED004117EA /* PBXContainerItemProxy */;
+			target = 482F70AE2CDE441A005B9D10 /* NotificationEx */;
+			targetProxy = 482F70D02CDE441C005B9D10 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		485542312CCE69ED004117EA /* Debug */ = {
+		482F70D92CDE441C005B9D10 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -294,7 +291,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 55JW9PZ4J9;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = CustomViewEx/Info.plist;
+				INFOPLIST_FILE = NotificationEx/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -305,7 +302,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.yourcompany.CustomViewEx;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yourcompany.NotificationEx;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -313,7 +310,7 @@
 			};
 			name = Debug;
 		};
-		485542322CCE69ED004117EA /* Release */ = {
+		482F70DA2CDE441C005B9D10 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -322,7 +319,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 55JW9PZ4J9;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = CustomViewEx/Info.plist;
+				INFOPLIST_FILE = NotificationEx/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -333,7 +330,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.yourcompany.CustomViewEx;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yourcompany.NotificationEx;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -341,7 +338,7 @@
 			};
 			name = Release;
 		};
-		485542332CCE69ED004117EA /* Debug */ = {
+		482F70DB2CDE441C005B9D10 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -393,7 +390,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -404,7 +401,7 @@
 			};
 			name = Debug;
 		};
-		485542342CCE69ED004117EA /* Release */ = {
+		482F70DC2CDE441C005B9D10 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -450,7 +447,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
@@ -460,7 +457,7 @@
 			};
 			name = Release;
 		};
-		485542362CCE69ED004117EA /* Debug */ = {
+		482F70DE2CDE441C005B9D10 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -468,18 +465,18 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 55JW9PZ4J9;
 				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.yourcompany.CustomViewExTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yourcompany.NotificationExTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CustomViewEx.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CustomViewEx";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NotificationEx.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/NotificationEx";
 			};
 			name = Debug;
 		};
-		485542372CCE69ED004117EA /* Release */ = {
+		482F70DF2CDE441C005B9D10 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -487,18 +484,18 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 55JW9PZ4J9;
 				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.yourcompany.CustomViewExTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yourcompany.NotificationExTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CustomViewEx.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CustomViewEx";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NotificationEx.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/NotificationEx";
 			};
 			name = Release;
 		};
-		485542392CCE69ED004117EA /* Debug */ = {
+		482F70E12CDE441C005B9D10 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -506,16 +503,16 @@
 				DEVELOPMENT_TEAM = 55JW9PZ4J9;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.yourcompany.CustomViewExUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yourcompany.NotificationExUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = CustomViewEx;
+				TEST_TARGET_NAME = NotificationEx;
 			};
 			name = Debug;
 		};
-		4855423A2CCE69ED004117EA /* Release */ = {
+		482F70E22CDE441C005B9D10 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -523,66 +520,55 @@
 				DEVELOPMENT_TEAM = 55JW9PZ4J9;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.yourcompany.CustomViewExUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yourcompany.NotificationExUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = CustomViewEx;
+				TEST_TARGET_NAME = NotificationEx;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		485542022CCE69EA004117EA /* Build configuration list for PBXProject "CustomViewEx" */ = {
+		482F70AA2CDE441A005B9D10 /* Build configuration list for PBXProject "NotificationEx" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				485542332CCE69ED004117EA /* Debug */,
-				485542342CCE69ED004117EA /* Release */,
+				482F70DB2CDE441C005B9D10 /* Debug */,
+				482F70DC2CDE441C005B9D10 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		485542302CCE69ED004117EA /* Build configuration list for PBXNativeTarget "CustomViewEx" */ = {
+		482F70D82CDE441C005B9D10 /* Build configuration list for PBXNativeTarget "NotificationEx" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				485542312CCE69ED004117EA /* Debug */,
-				485542322CCE69ED004117EA /* Release */,
+				482F70D92CDE441C005B9D10 /* Debug */,
+				482F70DA2CDE441C005B9D10 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		485542352CCE69ED004117EA /* Build configuration list for PBXNativeTarget "CustomViewExTests" */ = {
+		482F70DD2CDE441C005B9D10 /* Build configuration list for PBXNativeTarget "NotificationExTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				485542362CCE69ED004117EA /* Debug */,
-				485542372CCE69ED004117EA /* Release */,
+				482F70DE2CDE441C005B9D10 /* Debug */,
+				482F70DF2CDE441C005B9D10 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		485542382CCE69ED004117EA /* Build configuration list for PBXNativeTarget "CustomViewExUITests" */ = {
+		482F70E02CDE441C005B9D10 /* Build configuration list for PBXNativeTarget "NotificationExUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				485542392CCE69ED004117EA /* Debug */,
-				4855423A2CCE69ED004117EA /* Release */,
+				482F70E12CDE441C005B9D10 /* Debug */,
+				482F70E22CDE441C005B9D10 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCRemoteSwiftPackageReference section */
-		481C1E832CDDF94000C34FC4 /* XCRemoteSwiftPackageReference "SnapKit" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/SnapKit/SnapKit.git";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 5.7.1;
-			};
-		};
-/* End XCRemoteSwiftPackageReference section */
 	};
-	rootObject = 485541FF2CCE69EA004117EA /* Project object */;
+	rootObject = 482F70A72CDE441A005B9D10 /* Project object */;
 }
