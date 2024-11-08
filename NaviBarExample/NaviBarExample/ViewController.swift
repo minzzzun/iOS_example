@@ -2,18 +2,7 @@
 //  ViewController.swift
 //  NaviBarExample
 //
-//  Created by 김민준 on 10/4/24.
+//  Created by 김민준 on 11/8/24.
 //
 
-import UIKit
-
-class ViewController: UIViewController {
-
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        // Do any additional setup after loading the view.
-    }
-
-
-}
-
+import Foundation
