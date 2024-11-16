@@ -67,8 +67,13 @@ class ViewController: UIViewController {
         let selectedViewController = viewControllers[index]
         addChild(selectedViewController)
         selectedViewController.view.frame = containerView.bounds
+        selectedViewController.view.alpha = 0
         containerView.addSubview(selectedViewController.view)
         selectedViewController.didMove(toParent: self)
+        
+        UIView.animate(withDuration: 0.5) {
+                selectedViewController.view.alpha = 1
+            }
     }
 }
 
