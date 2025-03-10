@@ -9,6 +9,10 @@ class CustomView : UIView {
         view.translatesAutoresizingMaskIntoConstraints = false
         return view
     }()
+
+    
+    
+    
     
     
     override init(frame: CGRect) {
@@ -16,6 +20,7 @@ class CustomView : UIView {
         setUI()
         self.backgroundColor = .yellow
     }
+    
     
     
     required init?(coder: NSCoder) {

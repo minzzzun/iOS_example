@@ -12,11 +12,12 @@ class ViewController: UIViewController {
     
     let boxView : CustomView = {
         let view = CustomView()
+        view.backgroundColor
         view.translatesAutoresizingMaskIntoConstraints = false
         return view
     }()
     
-    
+    //MARK: - main
     override func viewDidLoad() {
         super.viewDidLoad()
         setUI()

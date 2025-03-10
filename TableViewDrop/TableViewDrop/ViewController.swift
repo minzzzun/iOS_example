@@ -61,6 +61,22 @@ extension ViewController : UITableViewDataSource , UITableViewDelegate{
         return 100
     }
     
+    
+    func tableView(_ tableView: UITableView, trailingSwipeActionsConfigurationForRowAt indexPath: IndexPath) -> UISwipeActionsConfiguration? {
+        let deleteAction = UIContextualAction(style: .destructive, title: "Delete") { [weak self] (_, _, completionHandler) in
+            
+            // 데이터 삭제
+            self?.data.remove(at: indexPath.row)
+            // 테이블 뷰에서 해당 행 삭제
+            tableView.deleteRows(at: [indexPath], with: .automatic)
+            completionHandler(true)
+        }
+        deleteAction.backgroundColor = .red
+        
+        // 여러 액션 추가 가능
+        let configuration = UISwipeActionsConfiguration(actions: [deleteAction])
+        return configuration
+    }
 }
 
 //MARK: - drag

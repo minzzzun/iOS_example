@@ -1,0 +1,602 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4802AD242D16ABE800ED548C /* FSCalendar in Frameworks */ = {isa = PBXBuildFile; productRef = 4802AD232D16ABE800ED548C /* FSCalendar */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4802AD052D16ABB300ED548C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4802ACE62D16ABB000ED548C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4802ACED2D16ABB000ED548C;
+			remoteInfo = FSCallenderEx;
+		};
+		4802AD0F2D16ABB300ED548C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4802ACE62D16ABB000ED548C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4802ACED2D16ABB000ED548C;
+			remoteInfo = FSCallenderEx;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4802ACEE2D16ABB000ED548C /* FSCallenderEx.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FSCallenderEx.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4802AD042D16ABB300ED548C /* FSCallenderExTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FSCallenderExTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4802AD0E2D16ABB300ED548C /* FSCallenderExUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FSCallenderExUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		4802AD162D16ABB300ED548C /* Exceptions for "FSCallenderEx" folder in "FSCallenderEx" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 4802ACED2D16ABB000ED548C /* FSCallenderEx */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		4802ACF02D16ABB000ED548C /* FSCallenderEx */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				4802AD162D16ABB300ED548C /* Exceptions for "FSCallenderEx" folder in "FSCallenderEx" target */,
+			);
+			path = FSCallenderEx;
+			sourceTree = "<group>";
+		};
+		4802AD072D16ABB300ED548C /* FSCallenderExTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = FSCallenderExTests;
+			sourceTree = "<group>";
+		};
+		4802AD112D16ABB300ED548C /* FSCallenderExUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = FSCallenderExUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4802ACEB2D16ABB000ED548C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4802AD242D16ABE800ED548C /* FSCalendar in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4802AD012D16ABB300ED548C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4802AD0B2D16ABB300ED548C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4802ACE52D16ABB000ED548C = {
+			isa = PBXGroup;
+			children = (
+				4802ACF02D16ABB000ED548C /* FSCallenderEx */,
+				4802AD072D16ABB300ED548C /* FSCallenderExTests */,
+				4802AD112D16ABB300ED548C /* FSCallenderExUITests */,
+				4802ACEF2D16ABB000ED548C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4802ACEF2D16ABB000ED548C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4802ACEE2D16ABB000ED548C /* FSCallenderEx.app */,
+				4802AD042D16ABB300ED548C /* FSCallenderExTests.xctest */,
+				4802AD0E2D16ABB300ED548C /* FSCallenderExUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4802ACED2D16ABB000ED548C /* FSCallenderEx */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4802AD172D16ABB300ED548C /* Build configuration list for PBXNativeTarget "FSCallenderEx" */;
+			buildPhases = (
+				4802ACEA2D16ABB000ED548C /* Sources */,
+				4802ACEB2D16ABB000ED548C /* Frameworks */,
+				4802ACEC2D16ABB000ED548C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				4802ACF02D16ABB000ED548C /* FSCallenderEx */,
+			);
+			name = FSCallenderEx;
+			packageProductDependencies = (
+				4802AD232D16ABE800ED548C /* FSCalendar */,
+			);
+			productName = FSCallenderEx;
+			productReference = 4802ACEE2D16ABB000ED548C /* FSCallenderEx.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4802AD032D16ABB300ED548C /* FSCallenderExTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4802AD1C2D16ABB300ED548C /* Build configuration list for PBXNativeTarget "FSCallenderExTests" */;
+			buildPhases = (
+				4802AD002D16ABB300ED548C /* Sources */,
+				4802AD012D16ABB300ED548C /* Frameworks */,
+				4802AD022D16ABB300ED548C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4802AD062D16ABB300ED548C /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				4802AD072D16ABB300ED548C /* FSCallenderExTests */,
+			);
+			name = FSCallenderExTests;
+			packageProductDependencies = (
+			);
+			productName = FSCallenderExTests;
+			productReference = 4802AD042D16ABB300ED548C /* FSCallenderExTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4802AD0D2D16ABB300ED548C /* FSCallenderExUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4802AD1F2D16ABB300ED548C /* Build configuration list for PBXNativeTarget "FSCallenderExUITests" */;
+			buildPhases = (
+				4802AD0A2D16ABB300ED548C /* Sources */,
+				4802AD0B2D16ABB300ED548C /* Frameworks */,
+				4802AD0C2D16ABB300ED548C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4802AD102D16ABB300ED548C /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				4802AD112D16ABB300ED548C /* FSCallenderExUITests */,
+			);
+			name = FSCallenderExUITests;
+			packageProductDependencies = (
+			);
+			productName = FSCallenderExUITests;
+			productReference = 4802AD0E2D16ABB300ED548C /* FSCallenderExUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4802ACE62D16ABB000ED548C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					4802ACED2D16ABB000ED548C = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					4802AD032D16ABB300ED548C = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 4802ACED2D16ABB000ED548C;
+					};
+					4802AD0D2D16ABB300ED548C = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 4802ACED2D16ABB000ED548C;
+					};
+				};
+			};
+			buildConfigurationList = 4802ACE92D16ABB000ED548C /* Build configuration list for PBXProject "FSCallenderEx" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4802ACE52D16ABB000ED548C;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				4802AD222D16ABE800ED548C /* XCRemoteSwiftPackageReference "FSCalendar" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 4802ACEF2D16ABB000ED548C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4802ACED2D16ABB000ED548C /* FSCallenderEx */,
+				4802AD032D16ABB300ED548C /* FSCallenderExTests */,
+				4802AD0D2D16ABB300ED548C /* FSCallenderExUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4802ACEC2D16ABB000ED548C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4802AD022D16ABB300ED548C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4802AD0C2D16ABB300ED548C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4802ACEA2D16ABB000ED548C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4802AD002D16ABB300ED548C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4802AD0A2D16ABB300ED548C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4802AD062D16ABB300ED548C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4802ACED2D16ABB000ED548C /* FSCallenderEx */;
+			targetProxy = 4802AD052D16ABB300ED548C /* PBXContainerItemProxy */;
+		};
+		4802AD102D16ABB300ED548C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4802ACED2D16ABB000ED548C /* FSCallenderEx */;
+			targetProxy = 4802AD0F2D16ABB300ED548C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		4802AD182D16ABB300ED548C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 55JW9PZ4J9;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FSCallenderEx/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yourcompany.FSCallenderEx;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4802AD192D16ABB300ED548C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 55JW9PZ4J9;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FSCallenderEx/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yourcompany.FSCallenderEx;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4802AD1A2D16ABB300ED548C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4802AD1B2D16ABB300ED548C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4802AD1D2D16ABB300ED548C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 55JW9PZ4J9;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yourcompany.FSCallenderExTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FSCallenderEx.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/FSCallenderEx";
+			};
+			name = Debug;
+		};
+		4802AD1E2D16ABB300ED548C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 55JW9PZ4J9;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yourcompany.FSCallenderExTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FSCallenderEx.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/FSCallenderEx";
+			};
+			name = Release;
+		};
+		4802AD202D16ABB300ED548C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 55JW9PZ4J9;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yourcompany.FSCallenderExUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FSCallenderEx;
+			};
+			name = Debug;
+		};
+		4802AD212D16ABB300ED548C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 55JW9PZ4J9;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yourcompany.FSCallenderExUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FSCallenderEx;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4802ACE92D16ABB000ED548C /* Build configuration list for PBXProject "FSCallenderEx" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4802AD1A2D16ABB300ED548C /* Debug */,
+				4802AD1B2D16ABB300ED548C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4802AD172D16ABB300ED548C /* Build configuration list for PBXNativeTarget "FSCallenderEx" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4802AD182D16ABB300ED548C /* Debug */,
+				4802AD192D16ABB300ED548C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4802AD1C2D16ABB300ED548C /* Build configuration list for PBXNativeTarget "FSCallenderExTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4802AD1D2D16ABB300ED548C /* Debug */,
+				4802AD1E2D16ABB300ED548C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4802AD1F2D16ABB300ED548C /* Build configuration list for PBXNativeTarget "FSCallenderExUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4802AD202D16ABB300ED548C /* Debug */,
+				4802AD212D16ABB300ED548C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		4802AD222D16ABE800ED548C /* XCRemoteSwiftPackageReference "FSCalendar" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/WenchaoD/FSCalendar.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.8.4;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		4802AD232D16ABE800ED548C /* FSCalendar */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4802AD222D16ABE800ED548C /* XCRemoteSwiftPackageReference "FSCalendar" */;
+			productName = FSCalendar;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 4802ACE62D16ABB000ED548C /* Project object */;
+}
